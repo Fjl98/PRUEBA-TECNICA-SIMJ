@@ -1,4 +1,4 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2024 <a href="#">Company</a>.</strong>
-    All rights reserved.
+    <strong>Copyright &copy; 2024 Francisco Jesús Laguna.</strong>
+    
 </footer>

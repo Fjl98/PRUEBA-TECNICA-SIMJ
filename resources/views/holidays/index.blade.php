@@ -37,7 +37,7 @@
                         <td>{{ $holiday->anio }}</td>
                         <td>{{ $holiday->recurrente ? 'Sí' : 'No' }}</td>
                         <td>
-                            <a href="{{ route('holidays.show', $holiday->id) }}" class="btn btn-info">Ver</a>
+                            
                             <a href="{{ route('holidays.edit', $holiday->id) }}" class="btn btn-warning">Editar</a>
                             <form action="{{ route('holidays.destroy', $holiday->id) }}" method="POST" style="display:inline;">
                                 @csrf
